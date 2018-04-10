@@ -1,0 +1,6 @@
+*.npy
+__pycache__
+pictures
+detecciones.txt
+evaluar_v2.py
+gt.txt
