@@ -19,10 +19,17 @@ Cabe destacar que el código se demora aproximadamente 25 minutos en buscar 21 c
 
 # Librerias usadas
 os 3.1(?)
+
 sys 3.6.1
+
 cv2 3.4.0
+
 numpy 1.12.1
+
 sklearn.linear_model 0.18.1
+
+Para instalar python y todas las librerías anteriores se debe descargar la última versión de anaconda, y luego ejecutar el siguiente comando para tener la última versión de OpenCV:
+$pip install opencv-contrib-python
 
 # Como funciona?
 Primero se calcula el descriptor EHD para cada frame seleccionado (en este caso se usan 3 frames por segundo), para cada video comercial y para el video de TV (esto se hace con la clase EHD_DESCRIPTOR). Luego, para cada descriptor del video de TV se debe encontrar cuales son los descriptores de entre todos los comerciales que más se parecen al descriptor de la TV (esto se hace con la clase K_NEIGHBORS). 
