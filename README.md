@@ -1,11 +1,11 @@
-# Detector de comerciales
+﻿# Detector de comerciales
 El objetivo de este proyecto es implementar un detector de avisos comerciales en televisión, esto significa encontrar
 cada tiempo de inicio y termino de cada comercial en una transmisión de televisión. 
 Para esto se cuenta con extractos de la programación emitida durante un día por un canal de televisión local, y una carpeta
 que contiene los video comerciales que deben ser detectados.
 
 # Como usar el detector?
-Lo primero es que el código principal es el archivo "detector.py". Para usar dicho archivo se debe ingresar por línea de comandos:
+Lo primero es que el código principal es el archivo "detector.py". Para usar dicho archivo se debe abrir una consola en la carpeta que lo contiene e ingresar por línea de comandos:
 
 $python detector.py 'directorio_comerciales' 'video de tv'
 
