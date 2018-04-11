@@ -43,3 +43,18 @@ En el caso de que el comercial no se encuentre en la emisión de TV se observar�
 ![Con titulo](pictures/trash.png "Comercial no se encuentra")
 
 Es por esto, que el problema se reduce a encontrar un conjunto de puntos que forma una línea recta con pendiente 1 (aproximadamente).
+
+# Configuraciones
+TIME_FLAG : Si es True entonces al final del código se hace un print con los minutos que demoro el programa en ejecutarse
+
+SAVE_DESCRIPTORS : Si es True entonces se guardaran los descriptores de los comerciales, tv y los vecinos mas cercanos en un archivo .npy
+READ_DESCRIPTORS : Si es True entonces se leeran los archivos previamente guardados
+DRAW : Si es True se mostraran scatter plots de frames vs tiempo por comercial
+
+SAMPLE_RATE : Cada cuantos frames calcular los descriptores
+FRAME_RESIZE : Dimensión del reshape (columnas, filas)
+ORIENTATION_THRESHOLD : Threshold para el descriptor EHD
+N_NEIGHBORS : Numero de vecinos seleccionados
+
+INTERVALO_PENDIENTE : Intervalo de tolerancia de la pendiente de los datos
+THRESHOLD : Porcentaje de datos correspondientes al comercial para ser considerado un verdadero positivo.

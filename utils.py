@@ -131,8 +131,7 @@ def get_pendiente(tiempo_array,frames_array):
 
 
 def algoritmo_deteccion(tiempo_array, frames_array, videos_array, ads_info,
-                    window = config.WINDOW, threshold= config.THRESHOLD,
-                    _pendiente = config.INTERVALO_PENDIENTE):
+                    threshold= config.THRESHOLD, _pendiente = config.INTERVALO_PENDIENTE):
     detecciones = []
     video_detectado_anterior = -1
 

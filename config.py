@@ -1,10 +1,6 @@
 # FLAGS
 TIME_FLAG = True
 
-ADS_FLAG = True
-TV_FLAG = True
-
-DEVELOP_FLAG = True
 SAVE_DESCRIPTORS = False
 READ_DESCRIPTORS = False
 DRAW = False
@@ -18,8 +14,5 @@ N_NEIGHBORS = 3
 # por el momento solo uso el mejor vecino
 
 #DETECTION PARAMETERS
-# La diferencia entre los dos siguientes
-# es el margen de error tolerado
-WINDOW = 4
 INTERVALO_PENDIENTE = (0.88,1.11)
 THRESHOLD = 0.6
